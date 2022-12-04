@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Nation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/76e6a95f48.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+         .checked {
+  color: orange;}
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .logo{
+    width: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+background-image: url(cse326.jpg);
+    background-size: cover;
+    /*background-color:darkgray*/
+}
+
+.logo img{
+    width:33%;
+    border: 2px solid white;
+    border-radius: 720px;
+}    
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}    
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: aqua;
+}
+.rightnav{  
+    
+    width: 50%;
+    text-align: right;
+    padding: 23;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17;
+    border: 2px solid grey;
+    border-radius: 9px;}
+#home{
+background-color: white;    
+}
+    #home h1{
+       
+text-align: center;
+text-shadow:10px;
+font-size: 65px;
+}
+#home p{
+    color:brown;
+    font-family: arial-black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.first{
+text-align: center;
+text-shadow:10px;
+font-size: 30px;
+} 
+.btn1 {
+    text-emphasis-style:inherit;
+    text-align:right;
+    font-size:25px;
+}
+.btn1 :hover{
+    color: salmon;
+    
+}
+/*feature css start*/
+#feature h1{
+    text-align: center;
+    background-image: url(feature.jpg) ;
+}
+.variety{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    background-color: antiquewhite;
+}
+.feature-box h3{
+    text-align: center;
+    font-size: 24px;
+
+}
+
+    </style>
+</head>
+<body class="body">
+    <!-- navigation bar -->
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="img.jpg" alt="logo"></div>
+            <li><a href="#Home"> Home</a></li>
+            <li><a href="#About"> About</a></li>
+            <li><a href="#Services"> Services</a></li>
+            <li><a href="#Contact"> Contact</a></li>
+
+
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+    </nav>
+    <!-- Navigation bar end here -->
+
+    <!-- Home --><hr><hr><hr>
+    <section id="home">
+        <h1>Enhance Your future with codenation</h1><br>
+        <p>:- India's no.1 flatform for learning web-development! come and join us and have a bright future in development -: 
+            <br> <p class="first">We have a variety of courses for you or your childern !...  Join Us in Session Starting<h3>So what are you waiting .... Come with us and explore Your life ...</p></h3>
+        </p>
+        <div class="btn1">
+            &#9193;<a href="about.html">Learn More</a>
+            &#9193;<a href="#course" >Visit Courses</a>
+            <hr><hr>
+        </div>
+    </section>
+    <!-- home section end here -->
+
+
+    <!-- features section start from here -->
+    <section id="feature">
+        <h1>&#10024;Awesome Features&#10024;</h1><br>
+        <p class="variety">&#10149;We have a varity of feature for you or your childern just like various Moocks certificate.. Online Tution and many more. </p>
+        <div class="feature-base">
+            <div class="feature-box">
+                
+                <h3><u>&#127891;Scholarship facility&#127891;</u></h3>
+                <p>We conduct every month scholership test where you can have maximum 100% scholarship 
+                    or If your rank is under 1000 you we get 70% off on any course and If your rank is under 1500 then you 
+                    we get 50% off on any course.</p>
+
+            </div>
+
+            <div class="feature-box">
+                
+                <h3>E-Certificate</h3>
+                <p>For any course you will get e-certificate that will help you in your CV and you will able to highlight from 
+                    other around 600 people get job by our certificate .</p>
+
+            </div> 
+            
+            <div class="feature-box">
+                
+                <h3>Award</h3>
+                <p>We also provide every week test get who ranked good in test get chance to get mock-interview with top MNC 
+                    software engineer.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="course">
+        <h1>Our popular Courses</h1><br>
+        <p>We provide you best course with best qualty video
+        </p>
+
+        <div class="course-box">
+          <div class="courses">
+              <img src="images/c1.jpg" alt="">
+              <div class="details">
+                  <span>Updated 21/06/22</span>
+                  <h6>JavaScripts Beginners Course</h6>
+                  <div class="star">
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star  checked"></i>
+                      <i class="fas fa-star  checked"></i>
+                      <i class="fas fa-star  checked"></i>
+                      <i class="fas fa-star  checked"></i>
+                      <span>(235)</span>
+
+                  </div>
+              </div>
+              <div class="cost">
+                  $65.2
+              </div>
+          </div>
+
+          <div class="courses">
+            <img src="images/c2.jpg" alt="">
+            <div class="details">
+                <span>Updated 21/06/22</span>
+                <h6>CSS Beginners Course</h6>
+                <div class="star">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <span>(269)</span>
+
+                </div>
+            </div>
+            <div class="cost">
+                $25.2
+            </div>
+        </div>
+
+        <div class="courses">
+            <img src="images/c3.jpg" alt="">
+            <div class="details">
+                <span>Updated 21/06/22</span>
+                <h6> Python Beginners Course</h6>
+                <div class="star">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <span>(652)</span>
+
+                </div>
+            </div>
+            <div class="cost">
+                $80.2
+            </div>
+        </div>
+
+        <div class="courses">
+            <img src="images/c4.jpg" alt="">
+            <div class="details">
+                <span>Updated 21/06/22</span>
+                <h6>MongoDb Beginners Course</h6>
+                <div class="star">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <span>(355)</span>
+
+                </div>
+            </div>
+            <div class="cost">
+                $30.9
+            </div>
+        </div>
+
+        <div class="courses">
+            <img src="images/c5.jpg" alt="">
+            <div class="details">
+                <span>Updated 21/06/22</span>
+                <h6>Node.js Beginners Course</h6>
+                <div class="star">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <span>(635)</span>
+
+                </div>
+            </div>
+            <div class="cost">
+                $65.9
+            </div>
+        </div>
+
+        <div class="courses">
+            <img src="images/c6.jpg" alt="">
+            <div class="details">
+                <span>Updated 21/06/22</span>
+                <h6>kotline Beginners Course</h6>
+                <div class="star">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <span>(135)</span>
+
+                </div>
+            </div>
+            <div class="cost">
+                $95.2
+            </div>
+        </div>
+        </div>
+
+    </section>
+      
+    <!-- Registration -->
+       <section id="registration">
+           <div class="reminder">
+               <p>Get 100 Online Courses for Free</p>
+               <h1>Register To Get It</h1>
+               <div class="time">
+                   <div class="date">
+                       18 Days <br> Days
+                   </div>
+                   <div class="date">
+                    23 <br> Hours
+                   </div>
+                   <div class="date">
+                    06 <br> Minutes
+                    </div>
+                    <div class="date">
+                    58 <br> Seconds
+                    </div>
+
+               </div>
+           </div>
+           <div class="form">
+               <h3>Create Free Account NOW!</h3>
+               <input type="text" placeholder="name" name="" id="">
+               <input type="text" placeholder="Email Address" name="" id="">
+               <input type="text" placeholder="Phone Number" name="" id="">
+               <div class="btn">
+                <a href="#" class="yellow">Submit Form</a>
+              
+            </div>
+
+           </div>
+       </section>
+
+       <!-- footer section start form here  -->
+       <section class="footer">
+        <div class="social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-snapchat"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    
+        <ul class="list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="contact.html">Services</a>
+          </li></ul>
+    
+</body>
+</html>
